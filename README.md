@@ -1,50 +1,52 @@
-# GitHub Profile Finder
+
+# Cafeteria Order Management System
 
 ## Overview
-A **GitHub Profile Finder** application that allows users to search for GitHub profiles by username and retrieve relevant details such as repositories, followers, and contributions. This tool provides an easy way to explore GitHub users' activity and projects.
+A **Cafeteria Order Management System** designed to streamline the ordering process in cafeterias. This system allows customers to place orders, track their status, and manage payments efficiently.
 
 ## Features
-- Search GitHub profiles by username
-- Display user details (name, bio, location, followers, etc.)
-- Show repositories with descriptions and links
-- View followers and following count
-- Responsive and user-friendly interface
+- Customer order placement
+- Menu management with pricing
+- Order tracking and status updates
+- Payment processing (cash/card/digital)
+- Admin dashboard for managing orders and inventory
+- User authentication for customers and staff
 
 ## Installation
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/github-profile-finder.git
-cd github-profile-finder
+git clone https://github.com/your-username/cafeteria-order-management.git
+cd cafeteria-order-management
 ```
 
 ### Install Dependencies (For Web-Based Application)
 ```bash
-npm install  # If using Node.js
-pip install requests  # If using Python
+pip install flask sqlite3
 ```
 
 ### Run the Application
+For a Python-based system:
+```bash
+python app.py
+```
 For a web-based system:
 ```bash
 open index.html
 ```
-For a backend-based system:
-```bash
-python app.py  # If using Flask/Django
-node server.js  # If using Node.js
-```
 
 ## Usage
-1. Enter a GitHub username in the search bar.
-2. Click the "Search" button.
-3. View the profile details, repositories, and other information.
+1. Customers browse the menu and place orders.
+2. Orders are sent to the kitchen for processing.
+3. Customers can track order status in real-time.
+4. Payment is processed at checkout.
+5. Admins manage orders, inventory, and pricing.
 
 ## Technologies Used
-- **HTML, CSS, JavaScript** for frontend
-- **GitHub API** for fetching user data
-- **Python (Flask/Django) or Node.js** for backend (if applicable)
-- **Bootstrap/Tailwind** for responsive design
+- **Python (Flask/Django)** for backend
+- **JavaScript, HTML, CSS** for frontend
+- **SQLite/MySQL** for database management
+- **Bootstrap/Tailwind** for responsive UI
 
 ## Contributing
 1. Fork the repository.
@@ -53,8 +55,5 @@ node server.js  # If using Node.js
 4. Push to the branch: `git push origin feature-branch`
 5. Open a pull request.
 
-## License
-This project is licensed under the MIT License.
 
-## Contact
-For any queries, reach out via [your-email@example.com](mailto:your-email@example.com).
+
